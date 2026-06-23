@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Development - Santhiya Tech</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    background:#111827;
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    color:#38bdf8;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h2{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.services{
+    padding:60px 10%;
+}
+
+.services h2{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px #38bdf8;
+}
+
+.card h3{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:40px;
+    padding:15px 30px;
+    background:#38bdf8;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+}
+
+.contact{
+    text-align:center;
+    padding:50px;
+}
+
+footer{
+    background:black;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Santhiya Tech</h1>
+</header>
+
+<section class="hero">
+    <h2>Web Development Services</h2>
+
+    <p>
+        We build professional websites, business portals,
+        e-commerce platforms, portfolio websites, and custom web applications
+        using modern technologies and responsive design.
+    </p>
+
+    <a href="index.html" class="btn">Back to Home</a>
+</section>
+
+<section class="services">
+
+    <h2>What We Offer</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Business Websites</h3>
+            <p>Professional websites for companies and startups.</p>
+        </div>
+
+        <div class="card">
+            <h3>E-Commerce</h3>
+            <p>Online stores with secure payment integration.</p>
+        </div>
+
+        <div class="card">
+            <h3>Portfolio Websites</h3>
+            <p>Showcase your skills and projects professionally.</p>
+        </div>
+
+        <div class="card">
+            <h3>Custom Web Apps</h3>
+            <p>Tailor-made solutions for your business needs.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="contact">
+
+    <h2>Contact Us</h2>
+
+    <p>Interested in a website project?</p>
+
+    <br>
+
+    <a href="https://wa.me/919876543210" class="btn" target="_blank">
+        WhatsApp Us
+    </a>
+
+</section>
+
+<footer>
+    <p>© 2026 Santhiya Tech. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
